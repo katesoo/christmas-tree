@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Елочка у бабушки</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/scss/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/scss/index.css" />
+    <link rel="stylesheet" href="./src/slider/nouislider.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="icon"></div>
+        <div class="nav-item__toys">Игрушки</div>
+        <div class="nav-item__fir">Ёлка</div>
+      </nav>
+      <div class="special-container">
+      </div>
+      <div class="search">
+        <input type="text" class="search-txt" placeholder="Type" />
+      </div>
+    </header>
+    <main>
+      <div class="main-page">
+        <div class="fir-sett-side">
+          <div class="icons">
+            <div class="icon sound-icon mute"></div>
+            <div class="icon snow-icon"></div>
+          </div>
+          <h3 class="chose-title">Выберите елку</h3>
+          <div class="chose-tree">
+            <div class="tree tree1"></div>
+            <div class="tree tree2"></div>
+            <div class="tree tree3"></div>
+            <div class="tree tree4"></div>
+          </div>
+          <h3 class="chose-title">Выберите фон</h3>
+          <div class="chose-background">
+            <div class="background background1"></div>
+            <div class="background background2"></div>
+            <div class="background background3"></div>
+            <div class="background background4"></div>
+            <div class="background background5"></div>
+            <div class="background background6"></div>
+            <div class="background background7"></div>
+            <div class="background background8"></div>
+          </div>
+        
+          <div class="buttons"></div>
+        </div>
+        <div class="fir-tree-page">
+          <img src="./assets/tree/tree2.png" alt="#" class="fir-tree" data-drop-target="true" usemap="#fir-triangle">
+
+          <map name="fir-triangle" id="map">
+            <area id="area" data-drop-target="true" shape="poly" coords="190,0,380,544,0,544">
+          </map>
+        </div>
+        <div class="balls-sett-side">
+          <h3 class="chose-title">Игрушки</h3>
+          <div class="chose-balls">
+            <div class="balls" data-drop-target="true"><div class="ball-count count-ball1"></div></div>
+            <div class="balls" data-drop-target="true"><div class="ball-count count-ball2"></div></div>
+            <div class="balls" data-drop-target="true"><div class="ball-count count-ball3"></div></div>
+            <div class="balls" data-drop-target="true"><div class="ball-count count-ball4"></div></div>
+            <div class="balls" data-drop-target="true"><div class="ball-count count-ball5"></div></div>
+            <div class="balls" data-drop-target="true"><div class="ball-count count-ball6"></div></div>
+            <div class="balls" data-drop-target="true"><div class="ball-count count-ball7"></div></div>
+            <div class="balls" data-drop-target="true"><div class="ball-count count-ball8"></div></div>
+            <div class="balls" data-drop-target="true"><div class="ball-count count-ball9"></div></div>
+            <div class="balls" data-drop-target="true"><div class="ball-count count-ball10"></div></div>
+            <div class="balls" data-drop-target="true"><div class="ball-count count-ball11"></div></div>
+            <div class="balls" data-drop-target="true"><div class="ball-count count-ball12"></div></div>
+            <div class="balls" data-drop-target="true"><div class="ball-count count-ball13"></div></div>
+            <div class="balls" data-drop-target="true"><div class="ball-count count-ball14"></div></div>
+            <div class="balls" data-drop-target="true"><div class="ball-count count-ball15"></div></div>
+            <div class="balls" data-drop-target="true"><div class="ball-count count-ball16"></div></div>
+            <div class="balls" data-drop-target="true"><div class="ball-count count-ball17"></div></div>
+            <div class="balls" data-drop-target="true"><div class="ball-count count-ball18"></div></div>
+            <div class="balls" data-drop-target="true"><div class="ball-count count-ball19"></div></div>
+            <div class="balls" data-drop-target="true"><div class="ball-count count-ball20"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="start-page">
+        <div class="welcome">
+          <p class="welcome-text">Помоги бабушке нарядить ёлку</p>
+        </div>
+        <div class="but-start">
+          <p class="but-start-text">Начать</p>
+        </div>
+      </div>
+      <div class="filter-page">
+        <section class="filter-toys">
+          <div class="filter filter__choice">
+            <h3 class="filter-title">Фильтр по значению</h3>
+            <div class="filter-by-form">
+              <h4 class="subtitle">Форма:</h4>
+              <button class="form form1"></button>
+              <button class="form form2"></button>
+              <button class="form form3"></button>
+              <button class="form form4"></button>
+              <button class="form form5"></button>
+            </div>
+            <div class="filter-by-color">
+              <h4 class="subtitle">Цвет:</h4>
+              <input id="but-color1" type="checkbox" class="but-color"></input>
+              <label for="but-color1"></label>
+              <input id="but-color2" type="checkbox" class="but-color"></input>
+              <label for="but-color2"></label>
+              <input id="but-color3" type="checkbox" class="but-color"></input>
+              <label for="but-color3"></label>
+              <input id="but-color4" type="checkbox" class="but-color"></input>
+              <label for="but-color4"></label>
+              <input id="but-color5" type="checkbox" class="but-color"></input>
+              <label for="but-color5"></label>
+            </div>
+            <div class="filter-by-size">
+              <h4 class="subtitle">Размер:</h4>
+              <button class="size size-l"></button>
+              <button class="size size-m"></button>
+              <button class="size size-s"></button>
+            </div>
+            <div class="filter-by-love">
+              <h4 class="subtitle">Только любимые:</h4>
+              <input id="but-love" type="checkbox" class="but-love"></input>
+              <label for="but-love" class="love-label"></label>
+              <h4 class="subtitle">Только избранные:</h4>
+              <input id="but-special" type="checkbox" class="but-special"></input>
+              <label for="but-special" class="love-label"></label>
+            </div>
+          </div>
+          <div class="filter filter__range">
+            <h3 class="filter-title">Фильтр по диапазону</h3>
+            <h4 class="subtitle">Количество экземпляров:</h4>
+            <div class="range-number">
+              <label class="label-number label-number1">
+                <input type="number" min="1" max="12" id="input-number1" value="1">
+              </label>
+              <div class="filter-range" id="range-1"></div>
+              <label class="label-number label-number2">
+                <input type="number" min="1" max="12" id="input-number2" value="12">
+              </label>
+            </div>
+            <h4 class="subtitle">Год приобретения:</h4>
+            <div class="range-year">
+              <label class="label-year label-year1">
+                <input type="number year1" min="1940" max="2021" id="input-year1" value="1940">
+              </label>
+              <div class="filter-range" id="range-2"></div>
+              <label class="label-year label-year2">
+                <input type="number year2" min="1940" max="2021" id="input-year2" value="2021">
+              </label>
+            </div>
+          </div>
+          <div class="filter sorting">
+            <h3 class="filter-title">Сортировка:</h3>
+            <select class="list-sort">
+              <option class="list-item-sort" value="alfab-max">По названию от А до Я</option>
+              <option class="list-item-sort" value="alfab-min">По названию от «Я» до «А»</option>
+              <option class="list-item-sort" value="num-max">По году по возрастанию</option>
+              <option class="list-item-sort" value="num-min">По году по убыванию</option>
+            </select>
+            <button class="reset">Сброс фильтров</button>
+          </div>
+        </section>
+        <div class="cards-container">
+        </div>
+      </div>
+      
+    </main>
+    <footer class="footer">
+      <p class="git-name">Katesoo</p>
+      <img class="rs-img" src="" alt="">
+    </footer>
+  </body>
+</html>
